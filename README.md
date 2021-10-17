@@ -1,11 +1,11 @@
 # Solver for the Snake Cube Puzzle
 
-For the snake of the shape 
+For the snake of the shape (`-` is straight, `.` is corner) 
 
 ```
 --...-..-...-.-....-.-.-.--
 ```
-it prints two solutions. 
+it prints two solutions. It starts on the top left at x/y/z 0/0/0.  
 ```
 winners:
 
