@@ -44,6 +44,20 @@ public class QubeModel {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Start: ").append(stack.getFirst().position).append("\n");
+        for (PlacedPiece piece : stack) {
+            char letter = switch (piece.outDirection) {
+                case X_POS -> 'R';
+                case X_NEG -> 'L';
+                case Y_POS -> 'F';
+                case Y_NEG -> 'B';
+                case Z_POS -> 'U';
+                case Z_NEG -> 'D';
+            };
+            sb.append(letter);
+            sb.append(" ");
+        }
+        sb.append("\n");
         sb.append("Y\\X  Z0     Z1     Z2\n     ");
 
         for (int y = 0; y < board[0].length; y++) {
@@ -56,6 +70,7 @@ public class QubeModel {
             }
             sb.append("\n     ");
         }
+        sb.append("\n");
         return sb.toString();
     }
 

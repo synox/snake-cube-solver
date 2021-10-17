@@ -33,6 +33,8 @@ public class Game {
 
 
         assertEquals("""
+                Start: 0,0,0
+                F F R B U U R D D F U L L B B R D R U U L L F F R R R\s
                 Y\\X  Z0     Z1     Z2
                      ↓→Z    →zZ    ↓←←   \s
                      ↓Z↓    ↑Zz    ↓→z   \s
@@ -40,6 +42,8 @@ public class Game {
                 """.trim(), game.winners.get(0).toString().trim());
 
         assertEquals("""
+                Start: 0,0,0
+                F F U B R R U L L F R D D B B U L U R R D D F F U U U\s
                 Y\\X  Z0     Z1     Z2
                      ↓Z↓    Z←z    →→z   \s
                      ↓↑↓    →→Z    ↓←←   \s
