@@ -1,5 +1,8 @@
 # Solver for the Snake Cube Puzzle
 
+![snake](docs/snake.jpeg)
+![cube](docs/cube.jpeg)
+
 For the snake of the shape (`-` is straight, `.` is corner) 
 
 ```
