@@ -1,3 +1,11 @@
+# Solver for the Snake Cube Puzzle
+
+For the snake of the shape 
+
+```
+--...-..-...-.-....-.-.-.--
+```
+it prints two solutions. 
 ```
 winners:
 
@@ -12,3 +20,8 @@ Y\X  Z0     Z1     Z2
      Z↑Z    ↑zZ    →zZ    
      
 ```
+
+But it also works with any other snake shape and cube size. 
+
+## See also
+ - https://www.jaapsch.net/puzzles/snakecube.htm
